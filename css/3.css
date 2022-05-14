@@ -1,0 +1,70 @@
+.outer {
+  position: relative;
+  width: 300px;
+  height: 600px;
+  background-color: blue;
+  border-radius: 50px;
+  -moz-box-shadow: 0 0 30px #4a4adc;
+  -webkit-box-shadow: 0 0 30px #4a4adc;
+  box-shadow: 0 0 30px #4a4adc;
+}
+.camera {
+	top: 5%;
+	left: 10%;
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	width: 7%;
+	height: 27%;
+	background-color: black;
+	border-radius: 500px;
+	align-items: center;
+	padding: 15px;
+	gap: 18px;
+}
+
+.camera .cam {
+	width: 100%;
+	height: 45%;
+	background-color: gray;
+	border-radius: 50%;
+    border: solid black;
+    outline: solid gray;
+}
+
+.camera .one{
+    outline: solid white; !important;
+}
+.flashlight {
+	position: absolute;
+	top: 6%;
+	left: 30%;
+	width: 4%;
+	height: 25px;
+	background-color: white;
+	border-radius: 100px;
+	box-shadow: 0 0 5px white;
+}
+
+.touch {
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	width: 14%;
+	height: 7%;
+	background-color: #4a4adc;
+	border-radius: 100px;
+	box-shadow: 0 0 4px black;
+}
+
+.text {
+  position: absolute;
+  top: 76%;
+  left: 38%;
+  color: white;
+  font-weight: bold;
+  white-space: pre;
+  max-width: fit-content;
+  transform: rotate(-90deg);
+  font-size: 30px;
+}
